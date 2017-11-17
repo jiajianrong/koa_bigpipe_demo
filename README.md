@@ -1,5 +1,8 @@
 ## KOA2 bigpipe demo
 
+使用koa实现bigpipe
+
+
 #### 安装
 
 	npm install
