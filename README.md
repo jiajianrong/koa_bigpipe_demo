@@ -3,7 +3,7 @@
 使用koa实现bigpipe
 
 
-#### 安装
+#### 安装 (node v7.6+)
 
 	npm install
 
