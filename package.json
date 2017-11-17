@@ -1,0 +1,20 @@
+{
+  "name": "bigpipe_demo_by_jiajianrong",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "lodash": "^4.16.2",
+    "serve-favicon": "~2.3.0",
+    
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.2",
+    "moment": "^2.18.1"
+    
+  }
+}

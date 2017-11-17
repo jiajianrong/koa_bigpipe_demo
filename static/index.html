@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>localStorage combo demo</title>
+<!--
+  jiajianrong@58.com
+  2017-11-16
+  -->
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="wap-font-scale" content="no">
+<link rel="shortcut icon" href="//static.58.com/favicon.ico" />
+<style>
+div { padding: 60px 0;  border: 1px solid gray; text-align: center;}
+</style>
+</head>
+<body>
+    
+    <h1> Welcome to 58jinrong Portal </h1>
+    
+    
+    
+    <div id="portlet-users"><b>user_portlet: </b></div>
+    
+    
+    <section>
+        <div id="portlet-hobbies" style="float:right; width: 200px;"><b>hobby_portlet: </b><br /></div>
+        <div id="portlet-posts" style="margin-right: 200px;"><b>post_portlet: </b></div>
+    </section>
+    
+    
+    
+    <script>
+    function renderPortlet(name, content) {
+        document.getElementById(name).innerHTML = document.getElementById(name).innerHTML + content
+    }
+    </script>
+    
